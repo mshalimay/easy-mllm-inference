@@ -51,6 +51,7 @@ class GenerationConfig:
     torch_dtype: str = field(default_factory=lambda: "bfloat16")
     flash_attn: Optional[bool] = None
     device: str = field(default_factory=lambda: "")
+    device_map: str = field(default_factory=lambda: "")
     quant_bits: str = field(default_factory=lambda: "")
     do_sample: bool = True
     endpoint: str = field(default_factory=lambda: "")
