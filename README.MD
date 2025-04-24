@@ -55,6 +55,8 @@ Behind the scenes, during an inference call the tools also:
 - Place the `llms` and `utils` in the root folder of your project
 - Install libraries in requirements.txt
 - Optionally install Flash Attention for fastr Hugging Face inference: `pip install flash-att`
+- Place your api keys in the `api_keys.json` files. 
+    - You can hide them or chage where they are located; make sure to also change the `llms/constants/constants.py` paths. 
 - Check the `examples/examples.ipynb`
 
 ## Note
