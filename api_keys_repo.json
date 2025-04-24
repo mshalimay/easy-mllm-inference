@@ -1,0 +1,22 @@
+{
+    "google": [
+      "key1",
+      "key2"
+    ],
+    "openai": [
+      "key1",
+      "key2"
+    ],
+    "anthropic": [
+      "key1",
+      "key2"
+    ],
+    "together_ai": [
+      "key1",
+      "key2"
+    ],
+    "openrouter": [
+      "key1",
+      "key2"
+    ]
+  }
