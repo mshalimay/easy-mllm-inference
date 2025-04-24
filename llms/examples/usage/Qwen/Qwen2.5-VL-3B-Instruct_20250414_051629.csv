@@ -1,0 +1,2 @@
+prompt_tokens,total_tokens,completion_tokens,gen_config,num_generations
+[499],[733],[234],"{'model': 'Qwen/Qwen2.5-VL-3B-Instruct', 'engine': 'automodel', 'num_generations': 1, 'temperature': 0.5, 'max_tokens': 1000, 'top_p': 0.95, 'top_k': 40, 'repetition_penalty': 1.05, 'provider': 'huggingface', 'mode': None, 'model_path': 'Qwen/Qwen2.5-VL-3B-Instruct'}",1

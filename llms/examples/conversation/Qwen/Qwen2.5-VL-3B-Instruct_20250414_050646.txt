@@ -1,0 +1,81 @@
+==================================
+GENERATION ARGS
+==================================
+model: Qwen/Qwen2.5-VL-3B-Instruct
+engine: automodel
+num_generations: 1
+temperature: 0.5
+max_tokens: 1000
+top_p: 0.95
+top_k: 40
+repetition_penalty: 1.05
+provider: huggingface
+mode: None
+model_path: Qwen/Qwen2.5-VL-3B-Instruct
+==================================
+PROMPT
+==================================
+
+---------------
+ROLE: SYSTEM
+---------------
+
+CONTENT TYPE: text
+You are an intelligent and helpful assistant.
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Describe **all** the below items.
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (1):
+
+
+CONTENT TYPE: image
+<image>
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (2):
+
+
+CONTENT TYPE: image
+<image>
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (3): Once upon a time, there was a princess who lived in a castle.Provide your response as follows: <Title for Item 1> <Description for Item 1> <Title for Item 2> <Description for Item 2> <Title for Item 3> <Description for Item 3>
+
+==================================
+GENERATION
+==================================
+---------- GENERATION 0 ----------
+
+CONTENT TYPE: text
+<Title for Item 1> Tabby Cat Sitting on a Wall
+
+<Description for Item 1> A tabby cat with a mix of dark and light brown stripes is sitting on a stone wall. The cat has green eyes and appears to be looking directly at the camera. The background features blurred tree branches against a blue sky.
+
+<Title for Item 2> Golden Retriever in a Field
+
+<Description for Item 2> A golden retriever is sitting in a field of orange flowers. The dog has a fluffy coat and is looking upwards with its mouth open, possibly panting or barking. The background is a grassy field with bright sunlight.
+
+<Title for Item 3> Princess in a Castle
+
+<Description for Item 3> A princess in a castle is depicted in a classic fairytale scene. She is wearing a flowing gown and a tiara, sitting on a throne surrounded by castle walls. The atmosphere is serene and majestic, typical of a royal setting.
+
+
+

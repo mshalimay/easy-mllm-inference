@@ -1,0 +1,81 @@
+==================================
+GENERATION ARGS
+==================================
+model: Qwen/Qwen2.5-VL-3B-Instruct
+engine: automodel
+num_generations: 1
+temperature: 0.5
+max_tokens: 1000
+top_p: 0.95
+top_k: 40
+repetition_penalty: 1.05
+provider: huggingface
+mode: None
+model_path: Qwen/Qwen2.5-VL-3B-Instruct
+==================================
+PROMPT
+==================================
+
+---------------
+ROLE: SYSTEM
+---------------
+
+CONTENT TYPE: text
+You are an intelligent and helpful assistant.
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Describe **all** the below items.
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (1):
+
+
+CONTENT TYPE: image
+<image>
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (2):
+
+
+CONTENT TYPE: image
+<image>
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (3): Once upon a time, there was a princess who lived in a castle.Provide your response as follows: <Title for Item 1> <Description for Item 1> <Title for Item 2> <Description for Item 2> <Title for Item 3> <Description for Item 3>
+
+==================================
+GENERATION
+==================================
+---------- GENERATION 0 ----------
+
+CONTENT TYPE: text
+<Title for Item 1>: Tabby Cat
+
+<Description for Item 1>: The image shows a tabby cat with a striped coat sitting on a ledge. The cat has a mix of dark and light fur patterns, with green eyes. It appears to be looking directly at the camera with a calm and alert expression.
+
+<Title for Item 2>: Golden Retriever
+
+<Description for Item 2>: The image features a golden retriever dog standing on a grassy field. The dog is looking up, possibly at something interesting in the sky or in the distance. The background is filled with orange flowers, creating a vibrant and colorful scene.
+
+<Title for Item 3>: Princess in a Castle
+
+<Description for Item 3>: This item is a story setting that describes a princess living in a castle. The princess is the central character in this narrative, and her life within the castle is the focus of the story. The castle provides a backdrop of grandeur and mystery, with its tall walls and intricate architecture. The princess's daily life, adventures, and relationships with other characters in the castle are the main elements of the story.
+
+
+

@@ -1,0 +1,81 @@
+==================================
+GENERATION ARGS
+==================================
+model: Qwen/Qwen2.5-VL-3B-Instruct
+engine: automodel
+num_generations: 1
+temperature: 0.5
+max_tokens: 1000
+top_p: 0.95
+top_k: 40
+repetition_penalty: 1.05
+provider: huggingface
+mode: None
+model_path: Qwen/Qwen2.5-VL-3B-Instruct
+==================================
+PROMPT
+==================================
+
+---------------
+ROLE: SYSTEM
+---------------
+
+CONTENT TYPE: text
+You are an intelligent and helpful assistant.
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Describe **all** the below items.
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (1):
+
+
+CONTENT TYPE: image
+<image>
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (2):
+
+
+CONTENT TYPE: image
+<image>
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (3): Once upon a time, there was a princess who lived in a castle.Provide your response as follows: <Title for Item 1> <Description for Item 1> <Title for Item 2> <Description for Item 2> <Title for Item 3> <Description for Item 3>
+
+==================================
+GENERATION
+==================================
+---------- GENERATION 0 ----------
+
+CONTENT TYPE: text
+<Title for Item 1>: Tabby Cat Posing
+
+<Description for Item 1>: This image features a tabby cat with distinct dark stripes and spots on its fur. The cat is sitting upright on what appears to be a stone ledge or wall, with a clear blue sky and bare branches in the background. Its eyes are open and focused, giving it a curious and alert expression.
+
+<Title for Item 2>: Golden Retriever Enjoying the Outdoors
+
+<Description for Item 2>: The image depicts a golden retriever dog standing in a field of bright orange flowers. The dog has a happy and content expression, with its mouth open and tongue slightly out. The field is lush green, suggesting it might be spring or summer. The overall scene conveys a sense of joy and relaxation.
+
+<Title for Item 3>: Princess in a Castle
+
+<Description for Item 3>: This image portrays a princess dressed in a flowing, elegant gown, standing in front of a grand, castle-like structure. The castle has multiple towers and turrets, with a moat surrounding it. The princess's hair is styled in an updo, and she holds a delicate, ornate scepter. The setting suggests a fairy-tale or medieval theme, with a sense of royalty and adventure.
+
+
+

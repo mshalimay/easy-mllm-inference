@@ -1,0 +1,2 @@
+candidates_token_count,prompt_token_count,total_token_count,gen_config,num_generations
+166,607,773,"{'model': 'gemini-2.0-flash-001', 'temperature': 0.5, 'max_tokens': 1000, 'top_p': 0.95, 'top_k': 40, 'num_generations': 1, 'provider': 'google', 'mode': None, 'model_path': 'models/gemini-2.0-flash-001'}",1

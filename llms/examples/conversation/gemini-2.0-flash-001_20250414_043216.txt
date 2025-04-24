@@ -1,0 +1,88 @@
+==================================
+GENERATION ARGS
+==================================
+model: gemini-2.0-flash-001
+temperature: 0.5
+max_tokens: 1000
+top_p: 0.95
+top_k: 40
+num_generations: 1
+provider: google
+mode: None
+model_path: models/gemini-2.0-flash-001
+==================================
+PROMPT
+==================================
+
+---------------
+ROLE: SYSTEM
+---------------
+
+CONTENT TYPE: text
+You are an intelligent and helpful assistant.
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Describe **all** the below items.
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (1):
+
+
+CONTENT TYPE: image
+<image>
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (2):
+
+
+CONTENT TYPE: image
+<image>
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Item (3):
+
+
+CONTENT TYPE: text
+Once upon a time, there was a princess who lived in a castle.
+
+---------------
+ROLE: USER
+---------------
+
+CONTENT TYPE: text
+Provide your response as follows: <Title for Item 1> <Description for Item 1> <Title for Item 2> <Description for Item 2> <Title for Item 3> <Description for Item 3>
+
+==================================
+GENERATION
+==================================
+---------- GENERATION 0 ----------
+
+CONTENT TYPE: text
+**Item 1: Tabby Cat**
+The image shows a tabby cat sitting upright. The cat has a brown and black striped coat, green eyes, and a pink nose. It is sitting on a ledge or wall, with bare branches and a cloudy sky in the background.
+
+**Item 2: Golden Retriever Puppy**
+The image shows a golden retriever puppy sitting in a grassy field. The puppy has light golden fur and an open mouth, as if it is smiling or panting. The background is a soft green with some orange flowers.
+
+**Item 3: Story Starter**
+This is the beginning of a fairy tale. It introduces a princess who lives in a castle, setting the stage for a story about her life and adventures.
+
+
+
+
