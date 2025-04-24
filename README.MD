@@ -60,7 +60,7 @@ Behind the scenes, during an inference call the tools also:
 - Check the `examples/examples.ipynb`
 
 ## Note
-NOTE: this is a package under construction. Most of the relevant utilities are working, however:
+This is a package under construction. Most of the relevant utilities are working, however:
 - You may need to tweak the relative paths. Recommended: place both `utils` and `llms` in the root directory of the project.
 - HuggingFace models have specific quirks, and it is impossible to foresee all them. The tools will do a best effort, but may need to change the code in `llms/providers/hugging_face` to support a new model (typically one or two lines).
 - Repo may have some bugs and non-implemented arguments for particular providers/models
